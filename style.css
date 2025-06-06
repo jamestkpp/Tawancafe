@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; }
+header nav { padding: 10px; background: #f0c; color: white; }
+header nav a { color: white; margin-right: 10px; text-decoration: none; }
+main { padding: 10px; }
