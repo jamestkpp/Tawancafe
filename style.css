@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: auto;
+  color: #333;
+  background: #fff;
+}
+header nav {
+  padding: 12px;
+  background: #8a2be2;
+  color: white;
+  text-align: center;
+}
+header nav a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+.hero {
+  background: url('https://picsum.photos/seed/tea/1200/400') center/cover no-repeat;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+.hero h1 {
+  margin: 0 0 10px;
+  font-size: 2.5em;
+}
+.hero p { margin: 0 0 20px; }
+.hero a {
+  background: white;
+  color: #8a2be2;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+section { margin: 40px 0; }
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.menu-table th, .menu-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+.menu-table th { background: #f8f8f8; }
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f8f8f8;
+  margin-top: 40px;
+}
